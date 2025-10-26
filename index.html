@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Plan a Trip</title>
+<style>
+body {
+  background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/764570415.jpg?k=c9c03ac02c1bba7bb074f8000d2478317787675dad8bff508b3d9936b86d589e&o=&hp=1');
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+}
+.airplane {
+  position: absolute; top: 10%;left: 1%; width: 250px; border: 2px solid white; animation: move_down 2.2s ease-in-out infinite;
+}
+.xian_map {
+  position: absolute; top: 36.5%; left: 1.2%; width: 300px; border: 8px solid white; opacity: 0.65; animation: move_right 2s ease-in-out infinite;
+  }
+.camera {
+  position: absolute; top: 61.5%; left: 2.5%; width: 290px; animation: move_right 1s ease-in-out infinite;
+  }
+.blue_cloud {
+  position: absolute; top: 5%; left: 63%; width: 250px; z-index: 0; animation: move_right 1s ease-in-out infinite;
+  }
+.flight_map {
+    position: absolute; top: 50%; left: 46%; width: 370px; animation: move_right 3s ease-in-out infinite;
+  }
+.umbrella {
+    position: absolute; top: 38%; left: 75%; width: 125px; animation: myAnimation 2.5s ease-in-out infinite;
+  }
+.green_figure {
+    position: absolute; top: 73%; left: 53%; width: 120px; animation: move_right 0.5s ease-in-out infinite;
+  }
+.blue {
+    position: absolute; top: 62%; left: 69.5%; width: 120px; animation: move_right 2s ease-in-out infinite;
+  }
+.red {
+    position: absolute; top: 73%; left: 80%; width: 120px; animation: move_right 3s ease-in-out infinite;
+  }
+.yellow {
+    position: absolute; top: 56.8%; left: 83%; width: 120px; animation: move_right 1s ease-in-out infinite;
+  }
+@keyframes move_right {
+  0%{transform: translateX(0);}
+  50%{transform: translateX(30px)}
+  100%{transform: translateX(0);}
+  }
+@keyframes move_down {
+  0%{transform: translateY(0);}
+  50%{transform: translateY(70px)}
+  100%{transform: translateY(0);}
+  }
+@keyframes myAnimation {
+  0%{background-color: red; left: 450px; top: 250px;}
+  25%{background-color: yellow; left: 600px; top: 250px;}
+  50%{background-color: blue; left: 600px; top: 320px;}
+  75%{background-color: green; left: 450px; top: 320px;}
+  100%{background-color: red; left: 450px; top: 250px;}
+}
+</style>
+</head>
+<body>
+  <h1 style="color:#FFFFFF; font-family:'Helvetica Neue'; font-size:24px; position:absolute; top:2%;left: 42%; z-index: 2;" >
+    Plan a Vacation Travel
+  </h1>
+   <img class="airplane" src="https://united.mediaroom.com/file.php/177369/United_Boeing_747_livery_2-medium.jpg?thumbnail=modal" alt="Boeing 747">
+   <img class="xian_map" src="https://media.discordapp.net/attachments/1432035418253033556/1432035467007754331/Screenshot_2025-10-26_at_10.54.35.png?ex=68ff9675&is=68fe44f5&hm=52e75eb7df9d389b4de920158a1abbb3f9a7b6d5e6fc8c34f89206b47b73af30&=&format=webp&quality=lossless&width=2408&height=1230" alt="Xi An Map">
+  <img class="camera" src="https://media.discordapp.net/attachments/1432035418253033556/1432037906436067500/image.png?ex=68ff98ba&is=68fe473a&hm=0c6d89f784cc719f6d8ca7165591ca2b9da0ef04dd71f965cc6d91c0553b9df2&=&format=webp&quality=lossless&width=2492&height=1230" alt="cameras">
+  <img class="blue_cloud" src="https://media.discordapp.net/attachments/1432035418253033556/1432045663037948025/image.png?ex=68ff9ff4&is=68fe4e74&hm=9533ebed73752f5a8b9150896211e8e7102fae712f353d0e270fdd2a77c3eca0&=&format=webp&quality=lossless&width=1080&height=656" alt="Blue Cloud">
+  <img class="flight_map" src="https://media.discordapp.net/attachments/1432035418253033556/1432050402253344819/image.png?ex=68ffa45e&is=68fe52de&hm=adc99b764a280617abc35cf298d89a22494bc6c4be830761b004da4ad99ad3f8&=&format=webp&quality=lossless&width=1100&height=496" alt="flight map">
+  <img class="umbrella" src="https://media.discordapp.net/attachments/1432035418253033556/1432051053028835500/image.png?ex=68ffa4f9&is=68fe5379&hm=ee208ea0a7e0112ef573c7f9afbd935fbad9e5e18b682440f2afca7799f96cf6&=&format=webp&quality=lossless&width=440&height=372" alt="umbrella">
+  <img class="green_figure" src="https://cdn.discordapp.com/attachments/1432035418253033556/1432051743797280858/image.png?ex=68ffa59d&is=68fe541d&hm=0ecdff7356ff3d05dc06376d874146494b188a13a9ff8950cda282e65bcd9956&" alt="green figure">
+  <img class="red" src="https://media.discordapp.net/attachments/1432035418253033556/1432052567038492713/image.png?ex=68ffa662&is=68fe54e2&hm=00bfb21fabdb621dce11df9bf5daaf305fe653876a675f0baf0d6bc8b53ca21c&=&format=webp&quality=lossless&width=404&height=412" alt="red figure">
+  <img class="yellow" src="https://media.discordapp.net/attachments/1432035418253033556/1432052263433535688/image.png?ex=68ffa619&is=68fe5499&hm=e1852c2a75abc4f22379c63ef7a34fa244e9c6173d937665f9b2f7e5f12f9cd3&=&format=webp&quality=lossless&width=404&height=412" alt="yellow figure">
+  <img class="blue" src="https://media.discordapp.net/attachments/1432035418253033556/1432052556045090926/image.png?ex=68ffa65f&is=68fe54df&hm=3ac2e138ecb9e773eb260a19f2d804bbc3372418efcb7c2203f53751abcc62aa&=&format=webp&quality=lossless&width=408&height=408" alt="blue figure">
+</body>
+</html>
